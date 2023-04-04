@@ -6,47 +6,36 @@
 
 .header {
   width: 100%; /* 横幅いっぱい */
-  height: 120px; /* 高さ120px */
+  height: 50px; /* 高さ120px */
   background-color: red; /* 背景色red */
-}
-.header-top {
-  width: 100%;
-  height: 70px;
-  background-color: hotpink;
-}
-.header-bottom {
-  width: 100%;
-  height: 50px;
-  background-color: pink;
 }
 .main-visual {
   width: 100%;
-  height: 300px;
+  height: 500px;
   background-color: orange;
-}
-.main-visual-conect {
-  width: 350px;
-  height: 300px;
-  background-color: gold;
 }
 .main {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: auto;
+}
+.sidebar-left{
+  width: 230px;
+  geight: 1400px;
+  background-color: palegreen;
 }
 .blog {
-  width: 600px;
+  width: 500px;
   height: 1400px;
   background-color: limegreen;
 }
-.sidebar {
-  width: 240px;
+.sidebar-right{
+  width: 230px;
   height: 1400px;
   background-color: palegreen;
 }
 .footer {
   width: 100%;
-  height: 120px;
+  height: 100px;
   background-color: blue;
 }
